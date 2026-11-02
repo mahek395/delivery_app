@@ -17,4 +17,4 @@ jobs:
           python-version: '3.11'
 
       - name: Calculate order total
-        run: ["python", "order_calc.py"]
+        run: python order_calc.py
